@@ -15,5 +15,9 @@
   "license": "MIT",
   "devDependencies": {
     "typescript": "^4.9.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MatheusFullstackOverkill/magical-form"
   }
 }
