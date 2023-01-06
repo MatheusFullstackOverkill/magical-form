@@ -1,23 +1,33 @@
 {
   "name": "magical-form",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple form components",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
     "build": "tsc",
     "prepare": "npm run build",
-    "postversion" : "git push && git push --tags",
+    "postversion": "git push && git push --tags",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Matheus Gonçalves de Oliveira",
-  "keywords": ["Simple", "form", "components"],
+  "keywords": [
+    "Simple",
+    "form",
+    "components"
+  ],
   "license": "MIT",
   "devDependencies": {
+    "@types/react": "^18.0.26",
     "typescript": "^4.9.4"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/MatheusFullstackOverkill/magical-form"
+  },
+  "dependencies": {
+    "jsx": "^0.9.89",
+    "moment": "^2.29.4",
+    "react": "^18.2.0"
   }
 }
