@@ -1,0 +1,19 @@
+{
+  "name": "magical-form",
+  "version": "1.0.0",
+  "description": "Simple form components",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "postversion" : "git push && git push --tags",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matheus Gonçalves de Oliveira",
+  "keywords": ["Simple", "form", "components"],
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  }
+}

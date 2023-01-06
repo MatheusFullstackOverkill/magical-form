@@ -1,0 +1,1 @@
+export const Teste = () => 'Faaala LEEK!!!';
