@@ -1,7 +1,5 @@
 import moment from 'moment';
 
-export const Teste = () => 'Faaala LEEK!!!';
-
 export const validateSimpleEmail = (value: string | undefined | null) => {
     const re = /^(.+)@(.+)$/;
     if(!value || value == '') {
