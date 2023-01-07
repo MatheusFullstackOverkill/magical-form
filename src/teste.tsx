@@ -1,1 +1,3 @@
-export const Teste = () => <p>Faaala LEEK!!!</p>;
+export function Teste() {
+    return <p>Faaala LEEK!!!</p>;
+}
