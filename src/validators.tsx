@@ -252,17 +252,3 @@ export const filteredErrors = (errors: any) => {
 export const errorsLength = (errors: any) => {
     return Object.keys(errors).filter(x => errors[x] !== '' || (Array.isArray(errors[x]) && errors[x].filter((y: any) => y.filter((z: any) => errors[z] !== '')) )).length;
 }
-
-export const errorMessage = (error: string) => {
-    if(error) {
-        return (
-            <div className='form-error-message mt-2' style={{
-                padding: '5px 0px 0px 0px',
-                background: 'white',
-                border: '1px solid #EB575'
-            }}>
-                <p style={{ color: '#EB5757' }}>{error}</p>
-            </div>
-        )
-    }
-}

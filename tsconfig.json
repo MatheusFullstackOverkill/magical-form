@@ -1,13 +1,40 @@
+// {
+//     "compilerOptions": {
+//       "target": "es2017",
+//       "module": "commonjs",
+//       "declaration": true,
+//       "outDir": "./lib",
+//       "strict": true,
+//       "esModuleInterop": true,
+//       "jsx":"preserve"
+//     },
+//     "include": ["src"],
+//     "exclude": ["node_modules", "**/__tests__/*"]
+// }
+// {
+//   "compilerOptions": {
+//     "target": "es2017",
+//     "allowJs": true,
+//     "skipLibCheck": true,
+//     "outDir": "./lib",
+//     "strict": true,
+//     "esModuleInterop": true,
+//     "module": "CommonJS",
+//     "jsx": "preserve",
+//   },
+//   "include": ["src"],
+//   "exclude": ["node_modules"]
+// }
 {
-    "compilerOptions": {
-      "target": "es2017",
-      "module": "commonjs",
-      "declaration": true,
-      "outDir": "./lib",
-      "strict": true,
-      "esModuleInterop": true,
-      "jsx":"preserve"
-    },
-    "include": ["src"],
-    "exclude": ["node_modules", "**/__tests__/*"]
+  "compilerOptions": {
+    "strict": true,
+    "jsx": "react",
+    "declaration": true,
+    "esModuleInterop": true,
+    "outDir": "lib",
+    "target": "es2017",
+    "module": "CommonJS",
+    "moduleResolution": "node"
+  },
+  "include": ["src"]
 }

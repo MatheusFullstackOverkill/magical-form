@@ -1,11 +1,12 @@
 {
   "name": "magical-form",
-  "version": "1.0.7",
+  "version": "1.0.20",
   "description": "Simple form components",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
-    "build": "tsc",
+    "clean": "rm -rf lib",
+    "build": "npm run clean && tsc && cp package.json README.md ./lib",
     "prepare": "npm run build",
     "postversion": "git push && git push --tags",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -26,8 +27,10 @@
     "url": "https://github.com/MatheusFullstackOverkill/magical-form"
   },
   "dependencies": {
+    "babel-preset-es2015": "^6.24.1",
     "jsx": "^0.9.89",
     "moment": "^2.29.4",
-    "react": "^18.2.0"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }
